@@ -7,9 +7,8 @@
     font-weight: normal;
 }
 /* Reset básico */
+:root{ 
 
-:root{
-  
     --bg-dark : #1a1b1c; /* Cor padrão de fundo */
     --bg-dark-med : #45494d; /* Cor base de sombreamento */
     --primary:#424632; /* Cor primária */
@@ -32,7 +31,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
